@@ -25,7 +25,8 @@ html,
 body {
     height: 100%;
     width: 100%;
-    background-image: url(https://i.postimg.cc/T2mcBGtv/pxfuel-2.jpg);
+    /* background-image: url(back_image); */
+    background-color: #141313;
 }
 
 
@@ -36,7 +37,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* overflow: hidden; */
     top: 0px;
     z-index: 100;
     background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.016));
@@ -57,7 +57,6 @@ nav {
     position: absolute;
     display: flex;
     align-items: center;
-
 }
 
 a {
@@ -91,7 +90,6 @@ a {
 
 .outer {
     width: 100vw;
-    /* overflow: scroll; */
     padding-top: 80px;
     overflow: hidden;
 }
@@ -99,13 +97,10 @@ a {
 .inner {
     width: 200vw;
     display: flex;
-    /* min-height: 100vh; */
 }
 
-/* main sec edit */
 .main {
-    /* background-image: url(pxfuel\ 2.jpg); */
-    padding: 20px;
+    padding: 30px;
     background-size: cover;
     width: 100vw;
 
@@ -154,28 +149,18 @@ a {
     height: 20px;
 }
 
-
-
-
-
-/* about sec edit  */
 .abt {
-
     overflow: hidden;
 }
 
 .about {
-    /* width: 100%; */
     width: 100vw;
     background-size: cover;
     backdrop-filter: blur(1px);
     height: 100vh;
     position: relative;
-    /* overflow: hidden; */
     transition: all 0.4s ease;
-    /* display: none; */
     overflow: hidden;
-
 }
 
 .about::-webkit-scrollbar {
@@ -183,7 +168,6 @@ a {
 }
 
 .about-nav {
-    /* height: 50px; */
     width: 100%;
     align-items: center;
     justify-content: space-evenly;
@@ -244,7 +228,6 @@ a {
 }
 
 #sec4 {
-    /* transform: translateY(60px); */
     gap: 22px;
     padding-left: 20px;
     padding-right: 20px;
@@ -382,8 +365,7 @@ button:active {
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    /* background-image: url(https://image.tmdb.org/t/p/w1280//8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg); */
+    justify-content: space-around; 
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -418,9 +400,7 @@ button:active {
 }
 
 .movieimg {
-    /* height: 100%; */
     width: 45vw;
-    /* background-color: #100206; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -430,6 +410,7 @@ button:active {
 .movieimg img {
     max-height: 400px;
     box-shadow: 2px 2px 100px 70px rgba(0, 0, 0, 0.566);
+    border-radius: 10px;
 }
 
 .movieDets span {
@@ -454,7 +435,6 @@ button:active {
 }
 
 .ranMovBtn {
-
     border-radius: 6px;
     background: linear-gradient(to bottom, rgba(247, 247, 247, 0.187), rgba(240, 240, 240, 0.105));
     height: 50px;
